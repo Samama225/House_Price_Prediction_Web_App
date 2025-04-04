@@ -4,8 +4,8 @@ import pandas as pd
 import streamlit as st
 
 
-# loading the saved model
-loaded_model = pickle.load(open(r'D:\ML_projects\model.pickle', 'rb'))
+with open("model.pickle", "rb") as f:
+    loaded_model = pickle.load(f)
 
 
 
