@@ -11,7 +11,7 @@ with open("model.pickle", "rb") as f:
 
 
 
-st.title("ML Model Deployment")
+st.title("House Price Prediction Web App")
 st.write("Enter the input features to get the prediction")
 
 
